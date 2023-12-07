@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+a{
+    color: #E4E8F0;
+    text-decoration: none;
+    font-family: sans-serif;
+    /* textColor: #E4E8F0;
+    secondaryColor: #FFFFFF; */
+
+}
+a:hover{
+    color: #FFFFFF;
+}
+nav{
+    background-color: rgb(4, 86, 148);
+    text-align: right;
+    padding: 6px;
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+
+}   
+nav a{
+    font-size: 12px;
+    padding-right: 24px;
+    font-weight: 400;
+
+
+}
+.container{
+    background-color: rgb(4, 86, 148);
+    padding: 15px;
+    /* position: relative; */
+    /* icon group da */
+}
+.container a{
+    font-size: 14px;
+    margin-right: 32px ;
+    vertical-align: middle;
+}
+#menu-img{
+    width: 104px;
+
+}
+.icon-group{
+    display: inline;
+    float: right;
+    padding: 7.745px;
+    /* position: absolute;
+    right: 0;
+    padding: 7.745px; */
+}
+.main-left{
+    width: 25%;
+    display: inline-block;
+    height: 576px;
+    vertical-align: top;
+    background-image: url(/assets/main-bg-image.webp);
+    background-size: cover ;
+    padding: 16px;
+    text-align: center;
+
+    /* justify-content: center; */
+    
+}
+.main-left * {
+    margin-top: 16px;
+    font-weight: 400;
+
+}
+.main-left h2{
+    margin-top: 41%;
+    line-height: 45px;
+    font-size: 30px;
+    font-weight: 400;
+
+
+}
+.main-left span{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 25.6px;
+}
+.main-left button{
+    /* display: block; */
+    background: linear-gradient(111.98deg, #00b8ff 18.07%, #1574c4 90.31%);
+    border: none;
+    border-radius: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 48px;
+    padding-left: 48px;
+    font-size: 16px;
+    color: #FFFFFF;
+    
+}
+.main-left button:hover{
+   background-color:  linear-gradient(111.98deg,#00b8ff 18.07%,#1574c4 90.31%);
+   border-color: transparent;
+   transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+   transition-duration: 750ms;
+ 
+}
+.main-right{
+    width: 75%;
+    display: inline-block;
+    height: 576px;
+    overflow: hidden;
+    vertical-align: top;
+
+
+}
+.section{
+    background-color: rgb(228, 232, 240);
+    width: 100%;
+    display: inline-block;
+  
+}
+.section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+   
+    
+}
+.section-content{
+    display: flex;
+}
+.section h1{
+    color: black;
+}
+.section a{
+    color: black;
+}
