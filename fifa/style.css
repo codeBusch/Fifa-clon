@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+a{
+    color: #E4E8F0;
+    text-decoration: none;
+    font-family: sans-serif;
+    /* textColor: #E4E8F0;
+    secondaryColor: #FFFFFF; */
+
+}
+a:hover{
+    color: #FFFFFF;
+}
+nav{
+    background-color: rgb(4, 86, 148);
+
+    text-align: right;
+    padding: 6px;
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+
+}
+nav a{
+    font-size: 12px;
+    padding-right: 24px;
+    font-weight: 400;
+
+
+}
+.container{
+    background-color: rgb(4, 86, 148);
+    padding: 15px;
+    /* position: relative; */
+    /* icon group da */
+}
+.container a{
+    font-size: 14px;
+    margin-right: 32px ;
+    vertical-align: middle;
+}
+#menu-img{
+    width: 104px;
+
+}
+.icon-group{
+    display: inline;
+    float: right;
+    padding: 7.745px;
+    /* position: absolute;
+    right: 0;
+    padding: 7.745px; */
+}
+.main-left{
+    width: 25%;
+    display: inline-block;
+    height: 576px;
+    vertical-align: top;
+    background-image: url(/assets/main-bg-image.webp);
+    background-size: cover ;
+    padding: 16px;
+    text-align: center;
+    
+    
+}
+.main-left * {
+    margin-top: 16px;
+}
+.main-left h2{
+    margin-top: 41%;
+    line-height: 45px;
+    font-size: 30px;
+
+}
+.main-left span{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 25.6px;
+}
+.main-left button{
+    display: block;
+}
+.main-right{
+    width: 74%;
+    display: inline-block;
+    height: 576px;
+    overflow: hidden;
+    vertical-align: top;
+}
