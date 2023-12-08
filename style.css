@@ -59,6 +59,10 @@ nav a{
     right: 0;
     padding: 7.745px; */
 }
+svg:hover{
+    fill: #00b8ff;
+}
+
 .main-left{
     width: 25%;
     display: inline-block;
@@ -142,3 +146,8 @@ nav a{
 }
 
 
+svg{
+    stroke: #FFFFFF;
+    width: 24px;
+    height: 24px;
+}
