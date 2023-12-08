@@ -104,9 +104,9 @@ svg:hover{
     transform: scale(1.1);
    
 }
-/* .main-left button{
+.main-left button{
     display: block;
-} */
+} 
 .main-right{
     width: 75%;
     display: inline-block;
